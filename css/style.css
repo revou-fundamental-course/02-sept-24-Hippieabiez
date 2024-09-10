@@ -48,6 +48,32 @@ text-align: center;
     text-align: center;
 }
 
+.keliling-segitiga-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin: 0px;
+    background: cornflowerblue;
+    text-align: center;
+}
+
+.kelilig-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.keliling-segitiga-img {
+    height: 300px;
+    width: 300px;
+    background-image: url(https://asset.kompas.com/crops/JdY-bhuKLrDKc6FI4n010ps_Dk8=/152x154:1550x1086/750x500/data/photo/2022/03/09/622887153d957.png);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.keliling-segitiga-form-header {
+    text-align: center;
+}
+
 .input-wrapper {
     width: 50%;
     display: flex;
