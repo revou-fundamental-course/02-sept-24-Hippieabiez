@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css\style.css">
-    <script src="./js/script.js"></script>
 </head>
 
 <body>
@@ -18,7 +17,7 @@
     <main>
         <section class="selection-content">
             <button href="#" type="button" class="selection-btn bisque-color">Segitiga</button>
-            <button href="#" type="button" class="selection-btn aqua-color">Jajargenjang</button>
+            <button href="#" type="button" class="selection-btn aqua-color">Jajar genjang</button>
         </section>
 
         <section class="main-content">
@@ -40,17 +39,18 @@
                     </header>
 
                     <div class="input-wrapper">
-                        <label for="panjang-alas">Panjang Alas:</label>
-                        <input id="panjang-alas" type="number" />
+                        <label for="alas">Alas:</label>
+                        <input id="alas1" type="number" />
                     </div>
                     <div class="input-wrapper">
                         <label for="tinggi">Tinggi:</label>
-                        <input id="tinggi" type="number" />
+                        <input id="tinggi1" type="number" />
                     </div>
 
                     <p id="result">Hasil Perhitungan:</p>
 
-                    <button>Hitung</button>
+                    <button onclick="hitungLuasSegitiga()" id="hitung">Hitung</button>
+                    <button onclick="" id="reset">Reset</button>
                 </form>
             </aside>
 
@@ -84,14 +84,16 @@
                         <input id="sisi-c" type="number" />
                     </div>
 
-                    <p id="result">Hasil Perhitungan:</p>
+                    <p id="result2">Hasil Perhitungan:</p>
 
-                    <button>Hitung</button>
+                    <button onclick="hitungKelilingSegitiga()" id="hitung2">Hitung</button>
+                    <button onclick="" id="reset2">Reset</button>
                 </form>
             </aside>
         </section>
 
     </main>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
